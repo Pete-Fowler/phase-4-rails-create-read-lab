@@ -15,7 +15,7 @@ ActiveRecord::Schema.define(version: 2022_10_11_173338) do
   create_table "plants", force: :cascade do |t|
     t.string "name"
     t.string "image"
-    t.string "price"
+    t.decimal "price"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
